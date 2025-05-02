@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -14,6 +14,184 @@
   -webkit-text-size-adjust: 100%;
 }
 
+{
+margin: 0;
+padding: 0;
+}
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("public/assets/iteration-1/home-banner.png");
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  font-size: 20px;
+  margin-top: -180px;
+  font-weight: 1;
+}
+
+header img {
+  width: 250px;
+  padding: 2rem;
+}
+p.content-text {
+  color: #fdc913;
+  font-style: italic;
+  font-family: satisfy;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 2rem;
+  line-height: 2rem;
+  background-color: #ffff;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  font-family: Roboto Condensed;
+}
+
+.btn-pizza {
+  padding: 10px 20px;
+  background-color: #fdc913;
+  color: black;
+  font-weight: bold;
+  border: none;
+
+  border-radius: 20px;
+}
+
+.tasarım {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  height: 70vh;
+  background-color: #faf7f2;
+  gap: 0.5rem;
+}
+.tasarım-menu.sol {
+  background-image: url(public/assets/iteration-2/cta/kart-1.png);
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 80%;
+  width: 20%;
+  border-radius: 5px;
+  color: #ffff;
+}
+.tasarım-menu.sag {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 20%;
+}
+
+.item h1{
+  font-size: 24px;
+  font-style: bold;
+  color: white;
+}
+.item p {
+  font-size: 10px;
+}
+.hackhatlon-menu h2 {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.teslimat h2 {
+  font-size: 16px;
+  text-align: center;
+}
+.btn-siparis {
+  padding: 5px 5px;
+  background-color: white;
+
+  font-size: 10px;
+  border: none;
+  color: #ce2829;
+  border-radius: 10px;
+}
+
+.hackhatlon-menu {
+  background-image: url(public/assets/iteration-2/cta/kart-2.png);
+  text-align: left;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 2rem;
+  border-radius: 5px;
+  align-items: center;
+  height: 100%;
+}
+
+.teslimat {
+  background-image: url(public/assets/iteration-2/cta/kart-3.png);
+  text-align: left;
+  gap: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.tercih {
+  text-align: center;
+  margin: 2rem 0;
+  margin-top: -40px;
+  background-color: #faf7f2;
+}
+.tercih h2 {
+  font-family: "Roboto", sans-serif;
+  font-size:1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.tercih p {
+  font-family: Satisfy;
+  font-style: italic;
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+}
+
+/*
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,15 +203,19 @@ a:hover {
 
 body {
   margin: 0;
-  
+
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+ul {
+  display: flex;
+  list-style-type: none;
 }
 
 #app {
@@ -94,4 +276,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
+
