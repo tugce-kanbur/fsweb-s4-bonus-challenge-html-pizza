@@ -170,11 +170,16 @@
   background-image: url(public/assets/iteration-2/cta/kart-3.png);
   text-align: left;
   gap: 2rem;
-  background-position: center;
+  background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   border-radius: 5px;
+  position : relative;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .tercih {
@@ -261,7 +266,7 @@ width: 225px;
 }
 
 .point {
-  color: black
+  color: black;
   font-weight: bold;
 }
 
@@ -394,6 +399,17 @@ footer {
 }
 .footer-bottom p {
   margin: 0;
+}
+
+.teslimat .btn-siparis {
+  background-color: white;
+  color: #CE2829;
+  font-size: 8px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: none;
+  transform: translateY(-30px);
+  width:fit-content;
 }
 
 @media (max-width:420px) {
@@ -551,6 +567,26 @@ footer {
   display: block !important;
 }
 
+.teslimat {
+    background-position: center top;
+    background-size: cover;
+    height: 180px; /* daha az yükseklik */
+    padding: 1rem;
+  }
+
+  .teslimat h2 {
+    font-size: 0.9rem;
+  }
+
+  .btn-siparis {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  .teslimat .btn-siparis {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+  }
 }
 
 
